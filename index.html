@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aplicacion de Recetas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="form-section">
+      <h1>Recetas: </h1>
+      <form id="form-receta">
+        <input type="text" id="input-nombre" placeholder="Nombre de la receta" required />
+        <textarea id="input-pasos" rows="4" placeholder="Pasos para preparar la receta" required></textarea>
+        <button type="submit" id="btn-submit">Agregar receta</button>
+      </form>
+    </section>
+
+    <section id="lista-recetas" class="lista-recetas">
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
